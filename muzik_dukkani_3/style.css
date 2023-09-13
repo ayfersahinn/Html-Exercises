@@ -20,11 +20,7 @@ p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
 }
-a{
-    color: #AF0171;
-    text-decoration: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+
 .link:active{
     background-color: #f4d0f2;
 }
@@ -38,7 +34,7 @@ a{
 .baslik {
     padding-top: 1.6em;
     display: inline block;
-    margin-top: 3em;
+    /* margin-top: 2em; */
     background-color: #790252;
     width: 100%;
     height: 90px;
@@ -83,4 +79,33 @@ a{
 }
 .alink:active{
     background-color: #f4d0f2;
+}
+
+.misyon {
+    display: flex;
+    align-items: center;
+    
+    /* width: 90%; */
+}
+.misbox {
+    flex: 1;
+    text-align: justify;
+
+}
+h3 {
+    color: #790252;
+}
+
+footer {
+    margin: 100px;
+    font-size: 13px;
+}
+.a1 {
+    text-decoration: none;
+    color: black;
+}
+.a1:active{
+    
+    color: #c02e8f;
+    
 }
