@@ -3,24 +3,431 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200;10..48,300;10..48,400;10..48,500&family=Josefin+Sans&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200;10..48,300;10..48,400;10..48,500&family=Dancing+Script&family=Josefin+Sans&family=Sacramento&display=swap" rel="stylesheet">
+
     <title>Ürünlerimiz</title>
 </head>
-<body>
-    <center>
-        <h1 style="text-align: center;">Ürünlerimiz</h1>
-        <h2>Gitar</h2>
-        <img src="franki-chamaki-U2azMu57UEY-unsplash.jpg" alt="" width="500px">
-        <h2>Keman</h2>
-        <img src="philip-myrtorp-TeqVvTX8qKA-unsplash.jpg" alt="" width="500px">
-        <h2>Piyano</h2>
-        <img src="miguel-dominguez-5yDL5rOKrUM-unsplash.jpg" alt="" width="500px">
-        <h2>Bateri</h2>
-        <img src="gabriel-barletta--lWcaUVJ39Y-unsplash.jpg" alt="" width="500px">
-        <h2>Kalimba</h2>
-        <img src="kalimbera-hummingbird-flat-board-mini-kalimba-keychain-31358887592089_480x.jpg" alt="" width="500px">
-        <h2>Mızıka</h2>
-        <img src="hohner-golden-melody-mizika-do-major-643f19f01584e.webp" alt="" width="500px">
-    </center>
+<style>
+    a{
+            color: #AF0171;
+            text-decoration: none;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    .bigbox {
+        /* display: flex; */
+        /* justify-content: space-between; Eşit aralıklarla böl */
+        /* width: 100%; */
+        margin: 20px;
+        
+    
+}
+    .box {
+        /* flex: 1; */
+       
+        padding: 10px;
+        margin: 20px;
+        border: 1px solid gray;
+        /* background-color: rgb(237, 231, 231); */
+        border-radius: 5px;
+    }
+    h3 {
+        text-align: center;
+        font-weight: lighter;
+        font-size: 17px;
+    }
+    .fiyat {
+        color: rgb(34, 34, 34);
+        text-align: center;
+        font-size: 17px;
+    }
+    .indirim {
+        text-decoration: line-through;
+        color: gray;
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .kargo {
+        text-align: center;
+        font-style: italic;
+        color: green;
+        font-size: 14px;
+    }
+
+
+</style>
+<body style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+   <center>
+    <div class="baslik">
+        <span>
+            <i class="fa-solid fa-compact-disc fa-xl" style="color: rgb(237, 231, 231);"></i>
+        </span>
+        &nbsp;
+        <h1>Müzik Dükkanım</h1>&nbsp;
+        <span>
+            <i class="fa-solid fa-compact-disc fa-xl" style="color: rgb(237, 231, 231);"></i>
+        </span>
+        <br>
+        <p style="font-size: 20px; font-family:'Dancing Script', cursive; color: white; text-align: right; margin-right: 15px; margin-bottom: 30px;">Müzikseverlerin bir bildiği var.</p>
+        
+    </div>
+   
+    <br>
+    <div class="linkback">
+       <div class="link"> <a href="index.html">Anasayfa</a></div>
+       <div id="buton" class="link"> <a href="urunler.html">Ürünler</a></div>
+       <div class="link" style="border-right: none;"><a href="hakkimizda.html">Hakkımızda</a></div>
+    </div>
+    <br>
+
+    <div class="linkback">
+        <div class="link"> <a href="#gitar">Gitar</a></div>
+        <div class="link"> <a href="#keman">Keman</a></div>
+        <div class="link"> <a href="#piyano">Piyano</a></div>
+        <div class="link"> <a href="#bateri">Bateri</a></div>
+        <div class="link"> <a href="#kalimba">Kalimba</a></div>
+        <div class="link" style="border-right: none;"><a href="#mızıka">Mızıka</a></div>
+     </div>
+     <br>
+   </center>
+        
+        
+        <div class="bigbox" id="gitar">
+            <h3 style="font-weight: 300; text-align: start; margin-left: 30px; font-style: italic; color:gray;">Gitar Çeşitlerimiz</h3>
+            <table >
+                <tr>
+                    <td>
+                        <div class="box"> 
+                            <img src="2abf3a6a-913c-46aa-a0ff-0c9d6d8bf9e7.jpg" alt="" height="300px">
+                            <h3>Elektrikli Gitar</h3>
+                            <p class="fiyat">9.500 TL</p>
+                            <p class="indirim">15.999 TL</p>
+                            <p class="kargo">ÜCRETSİZ KARGO</p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="box">
+                            <img src="6ef10923-1234-4a73-8716-d04ebc0bb94e.jpg" alt="" height="300px">
+                            <h3>Akustik Gitar</h3>
+                            <p class="fiyat">10.500 TL</p>
+                            <p class="indirim">12.999 TL</p>
+                            <p class="kargo">ÜCRETSİZ KARGO</p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="box"> 
+                            <img src="2003 Gibson SJ-200 Custom Vine Acoustic Guitar! J-200 (Sold!) (1).jpg" alt="" height="300px">
+                            <h3>Klasik Gitar</h3>
+                            <p class="fiyat">11.500 TL</p>
+                            <p class="indirim">11.999 TL</p>
+                            <p class="kargo">ÜCRETSİZ KARGO</p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="box">
+                            <img src="Apprendre La Guitare Devient Facile.jpg" alt="" height="300px">
+                            <h3>Elektrikli Gitar</h3>
+                            <p class="fiyat">19.500 TL</p>
+                            <p class="indirim">20.999 TL</p>
+                            <p class="kargo">ÜCRETSİZ KARGO</p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="box">
+                            <img src="Chord Melody Guitar Tab Books - Tabs, Solos, Arrangements, Instruction & Lessons.jpg" alt="" height="300px">
+                            <h3>Bas Gitar</h3>
+                            <p class="fiyat">11.500 TL</p>
+                            <p class="indirim">11.999 TL</p>
+                            <p class="kargo">ÜCRETSİZ KARGO</p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="box">
+                            <img src="Cordoba Protege C1 Matiz Acoustic Guitar - Pale Sky.jpg" alt="" height="300px">
+                            <h3>Klasik Gitar</h3>
+                            <p class="fiyat">9.500 TL</p>
+                            <p class="indirim">11.999 TL</p>
+                            <p class="kargo">ÜCRETSİZ KARGO</p>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="box">
+                            <div style="text-align: center;">
+                                <img src="e42ef224-2099-4a95-98fe-341849a7bb6b.jpg" alt="" height="300px">
+                            </div>
+                            <h3>Klasik Gitar</h3>
+                            <p class="fiyat">11.500 TL</p>
+                            <p class="indirim">12.999 TL</p>
+                            <p class="kargo">ÜCRETSİZ KARGO</p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="box">
+                            <div style="text-align: center;">
+                                <img src="pinterest vintage guitars.jpg" alt="" height="300px">
+                            </div>
+                            <h3>Elektrikli Gitar</h3>
+                            <p class="fiyat">14.500 TL</p>
+                            <p class="indirim">15.999 TL</p>
+                            <p class="kargo">ÜCRETSİZ KARGO</p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="box">
+                            <div style="text-align: center;">
+                                <img src="italian.jpg" alt="" height="300px" style="justify-content: center;">
+                            </div>
+                            <h3>Akustik Gitar</h3>
+                            <p class="fiyat">11.500 TL</p>
+                            <p class="indirim">14.999 TL</p>
+                            <p class="kargo">ÜCRETSİZ KARGO</p>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+       
+        <div class="bigbox" id="keman">
+            <h3 style="font-weight: 300; text-align: start; margin-left: 30px; font-style: italic; color:gray;">Keman Çeşitlerimiz</h3>
+            <table>
+                <tr>
+                    <td>
+                        <div class="box">
+                            <div style="text-align: center;">
+                                <img src="2187c48d-15c3-4c04-8e8e-e9677c1f6fc1.jpg" alt="" height="300px" >
+                            </div>
+                            <h3>Klasik Keman</h3>
+                            <p class="fiyat">14.500 TL</p>
+                            <p class="indirim">16.999 TL</p>
+                            <p class="kargo">ÜCRETSİZ KARGO</p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="box">
+                            <div style="text-align: center;">
+                                <img src="_Mükemmel_.jpg" alt="" height="300px" >
+                            </div>
+                            <h3>Çocuk Kemanı</h3>
+                            <p class="fiyat">13.500 TL</p>
+                            <p class="indirim">15.999 TL</p>
+                            <p class="kargo">ÜCRETSİZ KARGO</p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="box">
+                            <div style="text-align: center;">
+                                <img src="CELLO.jpg" alt="" height="300px">
+                            </div>
+                            <h3>Elektrikli Keman</h3>
+                            <p class="fiyat">19.500 TL</p>
+                            <p class="indirim">20.999 TL</p>
+                            <p class="kargo">ÜCRETSİZ KARGO</p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="box">
+                            <div style="text-align: center;">
+                                <img src="Mi música, mi escape.jpg" alt="" height="300px">
+                            </div>
+                            <h3>Klasik Keman</h3>
+                            <p class="fiyat">11.500 TL</p>
+                            <p class="indirim">14.999 TL</p>
+                            <p class="kargo">ÜCRETSİZ KARGO</p>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+       <hr>
+       <div class="bigbox" id="piyano">
+        <h3 style="font-weight: 300; text-align: start; margin-left: 30px; font-style: italic; color:gray;">Piyano Çeşitlerimiz</h3>
+        <table>
+            <tr>
+                <td>
+                    <div class="box">
+                        <div style="text-align: center;">
+                            <img src="Kozmos-KGP-150BKG-E28093-150-Cm-_116555_1.webp" alt="" height="300px" >
+                        </div>
+                        <h3>Kuyruklu Piyano</h3>
+                        <p class="fiyat">250.500 TL</p>
+                        <p class="indirim">280.999 TL</p>
+                        <p class="kargo">ÜCRETSİZ KARGO</p>
+                    </div>
+                </td>
+                <td>
+                    <div class="box">
+                        <div style="text-align: center;">
+                            <img src="kurzweil-ka130wh-dijital-piyano-beyaz-f2eefc1046f9b455a3c386deb6ff887d-652b785f251b0358a558a90c7f0e2f03-max-pp.jpg" alt="" height="300px" >
+                        </div>
+                        <h3>Dijital Piyano</h3>
+                        <p class="fiyat">113.500 TL</p>
+                        <p class="indirim">115.999 TL</p>
+                        <p class="kargo">ÜCRETSİZ KARGO</p>
+                    </div>
+                </td>
+                <td>
+                    <div class="box">
+                        <div style="text-align: center;">
+                            <img src="yamaha-b2-akustik-duvar-piyanosu-parlak-siyah-685f139b3ced2be9777b9808ad1835aa-86b508bd63aa3b0dc1206ee345a5664c-max-pp.jpg" alt="" height="300px">
+                        </div>
+                        <h3>Akustik Piyano</h3>
+                        <p class="fiyat">149.500 TL</p>
+                        <p class="indirim">160.999 TL</p>
+                        <p class="kargo">ÜCRETSİZ KARGO</p>
+                    </div>
+                </td>
+                
+            </tr>
+        </table>
+    </div>
+   <hr>
+   <div class="bigbox" id="bateri">
+    <h3 style="font-weight: 300; text-align: start; margin-left: 30px; font-style: italic; color:gray;">Bateri Çeşitlerimiz</h3>
+    <table>
+        <tr>
+            <td>
+                <div class="box">
+                    <div style="text-align: center;">
+                        <img src="tnd5844ftfm-1_min.jpg" alt="" height="300px" >
+                    </div>
+                    <h3>Akustik Bateri</h3>
+                    <p class="fiyat">40.500 TL</p>
+                    <p class="indirim">50.999 TL</p>
+                    <p class="kargo">ÜCRETSİZ KARGO</p>
+                </div>
+            </td>
+            <td>
+                <div class="box">
+                    <div style="text-align: center;">
+                        <img src="bas-davul-adams-concert-w-free-suspended-stand-40-x18_863_1.jpg" alt="" height="300px" >
+                    </div>
+                    <h3>Bas Davul</h3>
+                    <p class="fiyat">9.500 TL</p>
+                    <p class="indirim">10.999 TL</p>
+                    <p class="kargo">ÜCRETSİZ KARGO</p>
+                </div>
+            </td>
+            <td>
+                <div class="box">
+                    <div style="text-align: center;">
+                        <img src="1_org_zoom.webp" alt="" height="300px">
+                    </div>
+                    <h3>Elektrikli Bateri</h3>
+                    <p class="fiyat">15.500 TL</p>
+                    <p class="indirim">17.999 TL</p>
+                    <p class="kargo">ÜCRETSİZ KARGO</p>
+                </div>
+            </td>
+            
+        </tr>
+    </table>
+</div>
+<hr>
+<div class="bigbox" id="kalimba">
+    <h3 style="font-weight: 300; text-align: start; margin-left: 30px; font-style: italic; color:gray;">Kalimba Çeşitlerimiz</h3>
+    <table>
+        <tr>
+            <td>
+                <div class="box">
+                    <div style="text-align: center;">
+                        <img src="Kalimba Gato Madera - Clases de Kalimba.jpg" alt="" height="300px" >
+                    </div>
+                    <h3>Kalimba</h3>
+                    <p class="fiyat">1500 TL</p>
+                    <p class="indirim">1600 TL</p>
+                    <p class="kargo">ÜCRETSİZ KARGO</p>
+                </div>
+            </td>
+            <td>
+                <div class="box">
+                    <div style="text-align: center;">
+                        <img src="kalimbera-hummingbird-flat-board-mini-kalimba-keychain-31358887592089_480x.jpg" alt="" height="300px" >
+                    </div>
+                    <h3>Kalimba</h3>
+                    <p class="fiyat">900 TL</p>
+                    <p class="indirim">999 TL</p>
+                    <p class="kargo">ÜCRETSİZ KARGO</p>
+                </div>
+            </td>
+            <td>
+                <div class="box">
+                    <div style="text-align: center;">
+                        <img src="Kalimba Tran.jpg" alt="" height="300px">
+                    </div>
+                    <h3>Kalimba</h3>
+                    <p class="fiyat">800 TL</p>
+                    <p class="indirim">999 TL</p>
+                    <p class="kargo">ÜCRETSİZ KARGO</p>
+                </div>
+            </td>
+            <td>
+                <div class="box">
+                    <div style="text-align: center;">
+                        <img src="Kalimba.jpg" alt="" height="300px">
+                    </div>
+                    <h3>Kalimba</h3>
+                    <p class="fiyat">750 TL</p>
+                    <p class="indirim">990 TL</p>
+                    <p class="kargo">ÜCRETSİZ KARGO</p>
+                </div>
+            </td>
+        </tr>
+           <tr>
+            <td>
+                <div class="box">
+                    <div style="text-align: center;">
+                        <img src="Painted_Kalimba_Mbira_Colorful_Girl_in_Rain-removebg-preview.png" alt="" height="300px">
+                    </div>
+                    <h3>Kalimba</h3>
+                    <p class="fiyat">500 TL</p>
+                    <p class="indirim">899 TL</p>
+                    <p class="kargo">ÜCRETSİZ KARGO</p>
+                </div>
+            </td>
+            <td>
+                <div class="box">
+                    <div style="text-align: center;">
+                        <img src="Vibrate Kalimba _ Home to Kalimba Lovers.jpg" alt="" height="300px">
+                    </div>
+                    <h3>Kalimba</h3>
+                    <p class="fiyat">1200 TL</p>
+                    <p class="indirim">1300 TL</p>
+                    <p class="kargo">ÜCRETSİZ KARGO</p>
+                </div>
+            </td>
+            
+            
+         
+        </tr>
+    </table>
+</div>
+<hr>     
+<div class="bigbox" id="mızıka">
+    <h3 style="font-weight: 300; text-align: start; margin-left: 30px; font-style: italic; color:gray;">Mızıka Çeşitlerimiz</h3>
+    <table>
+        <tr>
+            <td>
+                <div class="box">
+                    <div style="text-align: center;">
+                        <img src="hohner-golden-melody-mizika-do-major-643f19f01584e.webp" alt="" height="300px">
+                    </div>
+                    <h3>Mızıka</h3>
+                    <p class="fiyat">500 TL</p>
+                    <p class="indirim">600 TL</p>
+                    <p class="kargo">ÜCRETSİZ KARGO</p>
+                </div>
+            </td>
+        </tr>
+    </table>
+    </div>
    
 </body>
 </html>
