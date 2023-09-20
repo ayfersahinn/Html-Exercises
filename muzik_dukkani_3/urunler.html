@@ -23,6 +23,7 @@
         /* justify-content: space-between; Eşit aralıklarla böl */
         /* width: 100%; */
         margin: 20px;
+        margin-top: 100px;
         
     
 }
@@ -58,12 +59,14 @@
         color: green;
         font-size: 14px;
     }
-
+    #gitar , #keman ,#piyano, #bateri, #kalimba, #mızıka {
+        padding-top: 180px;
+    }
 
 </style>
 <body style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
    <center>
-    <div class="baslik">
+    <div class="baslik" style="position: fixed;">
         <span>
             <i class="fa-solid fa-compact-disc fa-xl" style="color: rgb(237, 231, 231);"></i>
         </span>
@@ -78,14 +81,14 @@
     </div>
    
     <br>
-    <div class="linkback">
+    <div class="linkback"  style=" position: fixed; margin-left: 375px; margin-top: 115px;">
        <div class="link"> <a href="index.html">Anasayfa</a></div>
        <div id="buton" class="link"> <a href="urunler.html">Ürünler</a></div>
        <div class="link" style="border-right: none;"><a href="hakkimizda.html">Hakkımızda</a></div>
     </div>
     <br>
 
-    <div class="linkback">
+    <div class="linkback" style=" position: fixed;  margin-left: 375px;margin-top: 145px;">
         <div class="link"> <a href="#gitar">Gitar</a></div>
         <div class="link"> <a href="#keman">Keman</a></div>
         <div class="link"> <a href="#piyano">Piyano</a></div>
@@ -97,7 +100,7 @@
    </center>
         
         
-        <div class="bigbox" id="gitar">
+        <div class="bigbox" id="gitar" style="margin-top: 0px; ">
             <h3 style="font-weight: 300; text-align: start; margin-left: 30px; font-style: italic; color:gray;">Gitar Çeşitlerimiz</h3>
             <table >
                 <tr>
