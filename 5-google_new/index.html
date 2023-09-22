@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+</head>
+<style>
+
+    body {
+        font-size: 14px;
+        font-family: Roboto,arial,sans-serif;
+        
+    }
+
+    body, html {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+       
+    }
+
+    .ustbar {
+        height: 48px;
+        display: flex;
+        align-items: center;
+        padding: 6px;
+    }
+
+    .about a:first-of-type {
+        margin-left: 15px;
+    }
+
+    .about a {
+        display: inline-block;
+        margin: 0 3px;
+        padding: 5px;
+        color: #202124;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .gmail  {
+        display: inline-block;
+        position: absolute;
+        right: 115px;
+    }
+
+    .gmail a {
+        color: rgba(0,0,0,.87);
+        font-family: arial,sans-serif;
+        padding:  5px;
+        font-size: 13px;
+        margin-left: 2px;
+    }
+
+    .app, .pik {
+        margin-left: 3px;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        float: left;
+    }
+
+    img {
+        padding-top:5px;
+    }
+    
+    .icons {
+        position: absolute;
+        right: 20px;
+    }
+    
+    .ustbar a:hover {
+        text-decoration: underline;
+    }
+    
+    .app:hover {
+        background-color: #F0F0F0;
+    }
+
+    .pik:hover {
+        background-color: #F0F0F0;
+    }
+
+    .google {
+        padding-top: 58px;
+        text-align: center;
+    }
+
+    .text1 {
+        padding: 23px;
+        text-align: center;
+        z-index: 0;
+        position: relative;
+    }
+
+    #search {
+        border-radius: 24px;
+        width: 530px;
+        border: 1px solid #dfe1e5;
+        min-height: 44px;
+        outline: none;
+        padding-left: 50px;
+        background-image: url(img/icons8-search-100.png);
+        background-size: 17px;
+        background-repeat: no-repeat;
+        background-position: 15px center;
+    }
+
+    #search:hover {
+        box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+        transition: box-shadow 0.3s ease;
+    }
+
+    .search_icons {
+        top: 29px;
+        right: 489px;
+        bottom: 0;
+        position: absolute;
+        padding-right: 4px;
+        z-index: 1;
+    }
+
+    .search_icons img {
+        padding-left: 12px;
+    }
+
+    .buttons {
+        background-color: #f8f9fa;
+        border: 1px solid #f8f9fa;
+        border-radius: 4px;
+        color: #3c4043;
+        margin: 6px 4px;
+        padding: 0 16px;
+        line-height: 27px;
+        height: 36px;
+        min-width: 54px;
+        text-align: center;
+        cursor: pointer;
+        user-select: none;
+        font-family: Roboto,arial,sans-serif;
+        font-size: 14px;
+    }
+
+    .butonbox {
+        text-align: center;
+    }
+
+    .buttons:hover {
+        box-shadow: 0 1px 1px rgba(0,0,0,.1);
+        background-color: #f8f9fa;
+        border: 1px solid #dadce0;
+        color: #202124;
+    }
+
+    footer {
+        background-color: #f2f2f2;
+        padding: 15px;
+        margin-top:308.5px ;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+   
+    .links1, .links2 {
+        min-width: 30%;
+    }
+   
+    .links1 a, .links2 a{
+        color: #70757a;
+        text-decoration: none;
+        padding: 15px;
+    }
+
+    .links1 a:hover, .links2 a:hover {
+        text-decoration: underline;
+    }
+
+</style>
+<body>
+        <div class="ustbar">
+            <div class="about">
+                <a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a>
+                <a href="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US&pli=1">Store</a>
+            </div>
+                <div class="gmail">
+                    <a href="https://mail.google.com/mail/u/0/?ogbl#inbox">Gmail</a>
+                    <a href="https://www.google.com/imghp?hl=en&authuser=0&ogbl">Images</a>
+                </div>
+                <div class="icons">
+                    <div class="app">
+                        <a href=""><img src="img/icons8-circled-menu-100.png" width="23px" alt="" style="padding-top: 9px;"></a>
+                        
+                    </div>
+                    <div class="pik" >
+                        <a href=""><img src="img/icons8-pikachu-100.png" width="30px" alt="" ></a> 
+                    </div>
+                </div>
+            </div>
+        <div class="google">
+            <img src="img/logo.png" alt="">
+        </div>
+        <div class="text1">
+            <input id="search" type="text" value="">
+            <div class="search_icons">
+                <a href=""><img src="img/voicelogo.png" alt="" width="24px"></a>
+                <a href=""><img src="img/Google_Lens_Icon.svg.png" alt="" width="24px"></a>
+            </div>
+        </div>
+        <div class="butonbox">
+            <input class="buttons" type="button" name="" id="" value="Google Search"> 
+            <input class="buttons" type="button" value="I'm Feeling Lucky">
+        </div>
+        
+    <footer>
+        <div  class="son">
+            <div class="links1">
+                <a href="https://ads.google.com/intl/en_us/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1" >Advertising</a>
+                <a href="https://smallbusiness.withgoogle.com/intl/tr_tr/?subid=tr-tr-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=tr-tr-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u#!/">Business</a>
+                <a href="https://www.google.com/search/howsearchworks/?fg=1">How Search Works</a>
+            </div>
+        </div>
+        <div class="son2">
+            <div class="links2">
+                <a href="https://policies.google.com/privacy?hl=en&fg=1">Privacy</a>
+                <a href="https://policies.google.com/terms?hl=en&fg=1">Terms</a>
+                <a href="">Settings</a>
+            </div>
+        </div>
+    
+    </footer>
+</body>
+</html>
