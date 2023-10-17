@@ -1,0 +1,27 @@
+nav {
+    background-color: #790252;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    height: 70px;
+}
+
+.soz {
+    font-family:'Dancing Script';
+    font-size: 15px;
+    color: white;
+}
+
+.imgbox {
+    background-color: rgb(243, 243, 243);
+   text-align: justify;
+}
+
+.alink a {
+    color: #AF0171;
+}
+
+.alink a:hover {
+    color: #AF0171;
+}
+html {
+    scroll-behavior: smooth; /* Sayfa içi bağlantılara tıklandığında düzgün bir kaydırma efekti uygula */
+}
