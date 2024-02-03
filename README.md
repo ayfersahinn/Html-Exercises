@@ -8,3 +8,4 @@
 - Patika başlangıç seviyesi bootstrap ödev 2
 - Patika başlangıç seviyesi bootstrap Medium clone
 - Patika başlangıç seviyesi bootstrap Linkedin clone ödev 3
+- Patika başlangıç seviyesi javascript ödev 1
