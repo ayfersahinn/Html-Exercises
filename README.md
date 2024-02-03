@@ -7,3 +7,4 @@
 - Patika başlangıç seviyesi bootstrap ödev 1
 - Patika başlangıç seviyesi bootstrap ödev 2
 - Patika başlangıç seviyesi bootstrap Medium clone
+- Patika başlangıç seviyesi bootstrap Linkedin clone ödev 3
